@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-bg-color-5 { background-color: #99CC99; }
 .tm-bg-color-6 { background-color: #F2F2F2; }
 .tm-bg-color-7 { background-color: #DDD; }
-.tm-bg-color-8 { background-color: #EDEEEF; } /* Nav background */
+.tm-bg-color-8 { background-color: #EDEEEF; } 
 .tm-bg-color-white { background-color: white; }
 .tm-text-color-1 { color: #666; }
 .tm-text-color-2 { color: #333; }
@@ -160,15 +160,14 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 645px) {
   .tm-nav-item { margin: 10px; }
   .tm-nav-item:last-child { margin-right: 10px; }
 
   .tm-nav ul {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
   }
 }
 
